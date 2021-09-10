@@ -1,0 +1,70 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey there",
+          "Hola",
+          "Is anyone there?",
+          "Hello",
+          "Good morning",
+          "Good day"
+        ],
+        "responses": [
+            "Hi :)",
+            "Hello, I hope you are having a good day",
+            "Hey :-)"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks for everything", "Thank's a lot!", "Thanks for the help", "Thank u"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+          "tag": "Times",
+          "patterns": ["At what time are you open?", "What time does your studio open?", "What time does your studio close?", "Is the studio open now?", "what time do you close",
+          "what time do you open", "studio open", "studio close","Are you guys open now", "can i pay a visit"],
+          "responses": ["We are open from 9AM to 8 PM week days", "We are available from 9am to 8pm week days"]
+      },
+      {
+          "tag": "Services",
+          "patterns": ["What do you guys do?", "Do you guys make short films?", "Do you guys make animations?","what are your services", "Services you provid", "Services your studio provide", "Things your studio do"],
+          "responses": ["We make animations, 3D advertisements and shortfilms and much more"]
+      },
+      {
+        "tag": "Needed",
+        "patterns":["I need an animation", "I need an advertisement","I need an animation for my project", "I need an advertisement for my project",
+        "I need a 3D animation", "I need a 2D animation", "We need an animation"],
+        "responses":["Sure please check our website and place an order our team will get in touch with you shortly.."]
+      },
+      {
+          "tag": "Charges",
+          "patterns": ["How much do you charge?", "can i know your prices?", "How much for a animation?", "How much for a advertisement?", "Can i know about payments?", "Expensive", "Cheap", "prices",
+          "what are the charges for an animation", "what are the charges for an advertisement"],
+          "responses": ["You can get a quatation form our website", "Please go to our website and get a qutation"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "I gotta go", "Good Bye", "Adios amoigos", "Cya"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."]
+      },
+      {
+        "tag": "Music",
+        "patterns": ["Do you guys do music", "will there be music in my animation", "will there be music in my ad", "i need music to my ad", "i need to add music to my animation","one more thing do your studio do music",
+        "Music"],
+        "responses":["Our music is created by Pro studio", "Pro studio take care of the music of our videos" ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": ["how much time does your team take", "Deliver time", "How much time do you guys take to deliver my animation",
+           "How much time do you guys take to deliver my ad", "time"],
+        "responses": ["It depends on the project you can get an estimate day when you get a qutation"]
+      }
+
+    ]
+}
