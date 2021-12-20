@@ -1,5 +1,5 @@
 # AI-Chatbot
-This is an AI chatbot created using python.
+This is an AI chatbot created using python. This AI- chatbot created by Tadeesha.
 
 # Download 
 You can download as a .zip file
